@@ -7,8 +7,8 @@
 具体哪种好请各位自己判别
 
 ## 测试截图
-![测试1]()
-![测试2]()
+![测试1](https://github.com/ennnnny/HQ_Help/blob/master/resources/image1.jpg)
+![测试2](https://github.com/ennnnny/HQ_Help/blob/master/resources/image2.jpg)
 
 ## 食用方法
 1. 安装Python3 [这个不用多说了吧...]
