@@ -12,7 +12,6 @@ def open_webbrowser(question):
     data = {"wd": question}
     url = urllib.parse.urlencode(data)
     webbrowser.open('https://baidu.com/s?' + url)
-    #webbrowser.open('https://baidu.com/s?wd=' + question)
 
 
 def open_webbrowser_count(question,choices):
@@ -70,7 +69,6 @@ def get_answer():
 
 
 def main():
-    #open_webbrowser('世界最高楼')
     while True:
         print(time.strftime('%H:%M:%S',time.localtime(time.time())))
         print(get_answer())
