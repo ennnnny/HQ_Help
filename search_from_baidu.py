@@ -4,11 +4,14 @@ import time
 import json
 import requests
 import webbrowser
+import urllib
 
 questions = []
 
 def open_webbrowser(question):
-    webbrowser.open('https://baidu.com/s?wd=' + question)
+    data = {"wd": question}
+    url = urllib.parse.urlencode(data)
+    webbrowser.open('https://baidu.com/s?' + url)
 
 
 def open_webbrowser_count(question,choices):
